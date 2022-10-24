@@ -1,4 +1,4 @@
-import { Button } from "./components/Button";
+import { Button } from "./components/button";
 import { GentleMenList } from "./components/GentlemanList";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
