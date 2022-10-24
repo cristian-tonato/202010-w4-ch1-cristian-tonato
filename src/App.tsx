@@ -1,13 +1,19 @@
 import React from 'react';
-import { Sample } from './components/sample';
-import logo from './logo.svg';
-//import './App.css';
+import { Header } from './components/header';
+//import logo from './logo.svg';
+import './App.css';
+import { Controlls } from './components/controlls';
+import { Main } from './components/main';
 
 function App() {
   return (
+    <>
     <div className="App">
-      <Sample></Sample>
+      <Header></Header>
+      <Controlls></Controlls>
+      <Main></Main>
     </div>
+    </>
   );
 }
 
