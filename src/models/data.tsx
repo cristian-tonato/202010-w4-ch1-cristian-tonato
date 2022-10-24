@@ -1,4 +1,6 @@
-let persons = [
+import { IGentleman } from "../models/IGentleman";
+
+export const data: Array<IGentleman>= [
   {
     id: 1,
     name: "Bertin Osborne",
@@ -7,7 +9,7 @@ let persons = [
     twitter: "@osbourne",
     picture: "bertin.jpg",
     alternativeText: "Osbourne pointing at you",
-    selected: false,
+    selected: true,
   },
   {
     name: "The Farytale",
@@ -27,8 +29,6 @@ let persons = [
     twitter: "@julius_churchs",
     picture: "julio.jpg",
     alternativeText: "Churchs pointing at you",
-    selected: false,
+    selected: true,
   },
 ];
-
-export const Person = persons;
