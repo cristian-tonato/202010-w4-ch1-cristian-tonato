@@ -1,18 +1,24 @@
 import React from 'react';
-import { Header } from './components/header';
-//import logo from './logo.svg';
-import './App.css';
-import { Controlls } from './components/controlls';
-import { Main } from './components/main';
+import { Gentleman } from "./components/gentleman";
+import {Info} from "./components/Info";
+import "./App.css";
 
 function App() {
   return (
     <>
-    <div className="App">
-      <Header></Header>
-      <Controlls></Controlls>
-      <Main></Main>
-    </div>
+      <div className="container">
+        <header className="main-header">
+          <h1 className="main-title">The pointing gentlemen</h1>
+        </header>
+        <Info></Info>
+        <main className="main">
+          <ul className="gentlemen">
+            <Gentleman></Gentleman>
+            <Gentleman></Gentleman>
+            <Gentleman></Gentleman>
+          </ul>
+        </main>
+      </div>
     </>
   );
 }
