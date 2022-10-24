@@ -7,7 +7,7 @@ import { useState } from "react";
 function App() {
   const initialState = [
     {
-      id: 123,
+      id: 1,
       name: "Bertin Osborne",
       status: "Alive",
       profession: "Youtuber",
@@ -17,7 +17,7 @@ function App() {
       selected: true,
     },
     {
-      id: 456,
+      id: 2,
       name: "Farytale",
       status: "RIP",
       profession: "Influencer",
@@ -28,7 +28,7 @@ function App() {
       selected: false,
     },
     {
-      id: 789,
+      id: 3,
       name: "Julius Churchs",
       status: "Alive",
       profession: "Java developer",
